@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alat Monitoring Kesehatan Mental Pasien</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/projects/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Alat Monitoring Kesehatan Mental Pasien</h1>
+      <p>
+        Proyek Internet of Things (IoT) berbasis ESP32 untuk pemantauan kondisi
+        fisik dan indikasi kesehatan mental secara real-time.
+      </p>
+    </header>
+
+    <main class="container">
+      <section class="gallery">
+        <img src="/projects/image/fisik alat.jpeg" alt="Perangkat Monitoring" />
+        <img
+          src="/projects/image/dalemannya.jpeg"
+          alt="Rangkaian ESP32 dan Sensor"
+        />
+      </section>
+
+      <div class="lang-toggle">
+        <button id="btnSantai" class="active">Versi Santai</button>
+        <button id="btnTeknis">Versi Teknis</button>
+      </div>
+
+      <!-- Versi Santai -->
+      <section id="santai" class="lang-section active">
+        <h2>📘 Gambaran Umum</h2>
+        <p>
+          Alat ini dibuat untuk membantu memantau kondisi fisik dan aktivitas
+          seseorang menggunakan teknologi IoT. Data yang dikumpulkan dapat
+          menjadi gambaran awal terkait kondisi kesehatan mental pengguna.
+        </p>
+
+        <div class="highlight">
+          Sistem ini bersifat sebagai alat bantu pemantauan dan edukasi, bukan
+          sebagai pengganti diagnosis medis.
+        </div>
+
+        <h2>⚙️ Cara Kerja Singkat</h2>
+        <p>
+          Sensor membaca kondisi lingkungan dan pergerakan pengguna, kemudian
+          data tersebut diproses oleh ESP32. Hasilnya dapat dipantau secara
+          real-time dan digunakan sebagai indikator kondisi tertentu.
+        </p>
+
+        <h2>🎯 Tujuan Proyek</h2>
+        <p>
+          Proyek ini dibuat sebagai sarana pembelajaran dan eksplorasi teknologi
+          IoT, sekaligus untuk meningkatkan kesadaran akan pentingnya pemantauan
+          kesehatan mental secara berkelanjutan.
+        </p>
+      </section>
+
+      <!-- Versi Teknis -->
+      <section id="teknis" class="lang-section">
+        <h2>📗 Deskripsi Teknis Sistem</h2>
+        <p>
+          Sistem Monitoring Kesehatan Mental Pasien merupakan sistem berbasis
+          Internet of Things (IoT) yang menggunakan ESP32 sebagai mikrokontroler
+          utama dan penghubung ke jaringan internet.
+        </p>
+
+        <h2>🔧 Komponen yang Digunakan</h2>
+        <ul>
+          <li><strong>ESP32</strong> — Pengolahan data dan koneksi internet</li>
+          <li><strong>GSR</strong> — Sensor kulit dan denyut detak jantung</li>
+          <li><strong>MPU6050</strong> — Sensor gerak dan getaran</li>
+          <li>
+            <strong>Media Monitoring</strong> — Telegram / sistem notifikasi
+          </li>
+        </ul>
+
+        <h2>📡 Alur Data</h2>
+        <p>
+          Data sensor dikumpulkan secara real-time, diproses oleh ESP32,
+          kemudian dikirimkan ke sistem monitoring. Sistem dapat memberikan
+          notifikasi otomatis apabila terdeteksi kondisi tertentu sebagai bentuk
+          peringatan dini.
+        </p>
+
+        <h2>🎓 Manfaat Pengembangan</h2>
+        <p>
+          Proyek ini melatih pemahaman mengenai integrasi perangkat keras,
+          pemrograman mikrokontroler, serta implementasi sistem IoT dalam studi
+          kasus nyata.
+        </p>
+      </section>
+
+      <div class="back">
+        <a href="/index.html">⬅ Kembali ke Portofolio</a>
+      </div>
+    </main>
+    <footer class="footer">
+      <h2>My Contact</h2>
+      <a
+        class="fb"
+        href="https://www.facebook.com/share/14HFkTn1fkB/"
+        target="_blank"
+        >Facebook</a
+      >
+      <a class="wa" href="https://wa.me/6282127186363" target="_blank"
+        >WhatsApp</a
+      >
+      <a class="gh" href="https://github.com/muhamadsami017" target="_blank"
+        >GitHub</a
+      >
+      <p>
+        © 2026 <strong>Muhamad Sami Raihan</strong><br />
+        Dibangun dengan HTML, CSS, JavaScript & sedikit imajinasi 🎼
+      </p>
+    </footer>
+
+    <script src="/projects/script.js"></script>
+  </body>
+</html>
